@@ -1,29 +1,18 @@
 doctype html
 html
   head
-   meta(charset='utf-8')
-   meta(http-equiv='X-UA-Compatible', content='IE=edge')
-   meta(name='viewport', content='width=device-width, initial-scale=1')
-   meta(name='description', content='')
-   meta(name='author', content='')
-   title Angelika Gaszczyk - Portfolio
-   // Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/
-   link(href='css/bootstrap.min.css', rel='stylesheet')
-   // Custom CSS
-   link(href='css/style.css', rel='stylesheet')
-   // Custom Fonts
-   link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300', rel='stylesheet', type='text/css')
-   link(href='https://fonts.googleapis.com/css?family=League+Script', rel='stylesheet', type='text/css')
-   link(href='https://fonts.googleapis.com/css?family=Lato', rel='stylesheet', type='text/css')
-   link(href='https://fonts.googleapis.com/css?family=Alex+Brush', rel='stylesheet', type='text/css')
-   //
-     <link href='https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
-     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-   // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
-   // WARNING: Respond.js doesn't work if you view the page via file://
-   //if lt IE 9
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title Angelika Gaszczyk - Portfolio
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/style.css', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,300', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=League+Script', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Lato', rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Alex+Brush', rel='stylesheet', type='text/css')
     script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
     script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
 
@@ -31,6 +20,24 @@ html
       (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
       for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
       mixpanel.init("7b9c7cbf54c46f771926ba3eff5bccf4");
+      mixpanel.track("person arrives");
+      var scrolled = {};
+      var interval = 300;
+        var scrollFunc = function() {
+          var key = Math.floor(window.scrollY / interval)
+          if (!scrolled[key]) {
+            scrolled[key] = true
+            console.log("Scrolled", {
+              key: key,
+              scrollY: window.scrollY
+            })
+            mixpanel.track("Scrolled", {
+              key: key,
+              scrollY: window.scrollY
+            })
+          }
+        }
+        window.addEventListener('scroll', scrollFunc);
   body
     block content
     // jQuery
