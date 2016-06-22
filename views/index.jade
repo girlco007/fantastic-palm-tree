@@ -1,0 +1,118 @@
+extends layout
+
+block content
+  .body-size
+      section#top
+        // Navigation
+        nav.navbar.navbar-default.navbar-fixed-top
+          .container
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header.page-scroll
+              img.avatar(src='img/me-avatar.svg')
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#page-top')
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li.hidden
+                  a(href='#page-top')
+                li.page-scroll
+                  a(href='#hello', style='margin-top: 30px; padding-right: 20px') About
+                li.page-scroll
+                  a(href='#what-i-do', style='margin-top: 30px; padding-right: 20px') Work
+                li.page-scroll(style='margin-top: 30px; padding-right: 20px')
+                  a(href='#i-can-help') Contact
+            // /.navbar-collapse
+          // /.container-fluid
+        // Header
+      header
+        .masthead
+          .container
+            .row
+              .col-lg-12.text-center
+                h1  Angelika Gaszczyk 
+                h2
+                  | web designer
+                  p
+            .masthead-wrap
+              .container
+                .row
+                  .col-lg-12.text-center
+                    img.main-img(src='img/desktop1.svg')
+    section#hello
+      .container
+        .row
+          .col-md-12.text-center
+            img.avatar-img(src='img/me2.svg')
+            h4.hi Hi, I'm Angie!
+        .row
+          .col-md-6.col-md-offset-3.text-center
+            p
+              | I'm a web designer in San Francisco, California.
+              | I am passionate about design and love to create for web
+              | and mobile.
+      // what I do 
+    section#what-i-do
+      .container
+        .row
+          .col-md-12.text-center
+            h3.padding-what What I do
+      .container.padding-b
+        .row
+          .col-md-1
+            h4.padding
+          .col-md-3
+            h4.padding Seek to understand 
+          .col-md-4
+            img.img(src='img/design.svg')
+          .col-md-4.text-left
+            p.padding-p
+              | My goals are to create a consistent design language to convey the key message. 
+      .container
+        .row
+          .col-md-1
+            h4.padding
+          .col-md-3
+            h4.padding Build what you need
+          .col-md-4
+            img.img(src='img/dev.svg')
+          .col-md-4
+            p.padding-p-p
+              | I use the latest technologies to ensure your website will look great both on descktop and mobile.
+    section#i-can-help
+      .container.padding-contact
+        .row
+          .col-md-12.text-center
+            h3.padding-ICanHelp I can help!
+        .row
+          .col-xs-6.col-xs-offset-3.text-center
+            p
+              | If you have a project you care about I would love to talk to you!
+            p.btn-hldr
+              a.main-btn.email-lnk(href='mailto:girlcodesign@gmail.com')
+                | let's get in touch 
+                i.email
+      // footer
+    footer
+      .container
+        .row
+          .col-md-6.col-md-offset-3.text-center
+            ul.footer-list
+              li
+                a(href='https://dribbble.com/angi')
+                  img.icon-size(src='img/dribbble-logo.svg')
+              li
+                a(href='https://twitter.com/girlco007')
+                  img.icon-size(src='img/twitter.svg')
+              li
+                a(href='https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US')
+                  img.icon-size(src='img/linkedin-logo.svg')
+        .row
+          .col-lg-12
+            p
+              | © 2016 
+              a(href='#') Angelika Gaszczyk
