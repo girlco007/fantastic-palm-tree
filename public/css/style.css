@@ -1,12 +1,26 @@
-
+/*
 .body-size{
   margin: 0 70px 0 70px;
-}
+}*/
 
 .masthead{
   padding: 8em 0 0 0;
+}
+.mastheadPortfolio{
+  background-color: #3f5b7a
+;
+}
+
+.spaceship{
+  max-width: 100%;
+  max-height: 600px;
 
 }
+
+.upto{
+  padding: 0.8em 0 0.5em 0;
+}
+
 
 h1{
   font-family: 'Alex Brush', cursive;
@@ -116,7 +130,7 @@ p{
 }
 
 .padding-ICanHelp{
-  padding: 2em 0 0.3em 0;
+  padding: 2em 0 0.5em 0;
 }
 
 
@@ -323,7 +337,7 @@ footer .footer-list a:hover {
     text-align: center
 }
 .btn-hldr .main-btn {
-    font-size: .8em;
+    font-size: 1em;
     text-align: center;
     display: block;
     /*position: relative;*/
@@ -338,7 +352,7 @@ footer .footer-list a:hover {
     font-weight: 400;
     border: 0;
     font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 1px
 
 }
@@ -347,4 +361,46 @@ footer .footer-list a:hover {
     .btn-hldr .main-btn {
         display: inline-block
     }
+}
+
+ul.social-buttons {
+    margin-bottom: 0
+}
+
+ul.social-buttons li a {
+    margin-left: 15px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #3ea08a;
+    border-radius: 100%;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0
+}
+.padding-small {
+    padding: 20px 0 30px 0;
+  }
+
+ul.arrow li a:hover,
+ul.arrow li a:focus,
+ul.arrow li a:active {
+    color: #3ea08a;
+
 }

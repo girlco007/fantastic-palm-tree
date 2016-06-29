@@ -33,24 +33,25 @@ block content
         .masthead
           .container
             .row
-              .col-md-12.text-center
+              .col-sm-12.text-center
                 h1  Angelika Gaszczyk 
                 h2
                   | web designer
                   p
             .masthead-wrap
               .container
-                .row
-                  .col-md-12
+                .row.text-center
+                  .col-sm-12
                     img.main-img(src='img/desktop1.svg')
+      // say hi!              
     section#hello
       .container
         .row
-          .col-md-12.text-center
-            img.avatar-img(src='img/me2.svg')
+          .col-sm-12.text-center
+            img.avatar-img.img-responsive(src='img/me2.svg')
             h4.hi Hi, I'm Angie!
         .row
-          .col-md-6.col-md-offset-3.text-center
+          .col-sm-6.col-sm-offset-3.text-center
             p
               | I'm a web designer in San Francisco, California.
               | I am passionate about design and love to create for web
@@ -59,60 +60,62 @@ block content
     section#what-i-do
       .container
         .row
-          .col-md-12.text-center
+          .col-sm-12.text-center
             h3.padding-what What I do
       .container.padding-b
         .row
-          .col-md-1
+          .col-sm-1
             h4.padding
-          .col-md-3
-            h4.padding Seek to understand 
-          .col-md-4
-            img.img(src='img/design.svg')
-          .col-md-4.text-left
+          .col-sm-3
+            h4.padding Design what you want
+          .col-sm-4
+            img.img.img-responsive(src='img/design.svg')
+          .col-sm-4.text-left
             p.padding-p
               | My goals are to create a consistent design language to convey the key message. 
       .container
         .row
-          .col-md-1
+          .col-sm-1
             h4.padding
-          .col-md-3
+          .col-sm-3
             h4.padding Build what you need
-          .col-md-4
-            img.img(src='img/dev.svg')
-          .col-md-4
+          .col-sm-4
+            img.img.img-responsive(src='img/dev.svg')
+          .col-sm-4
             p.padding-p-p
               | I use the latest technologies to ensure your website will look great both on descktop and mobile.
     section#i-can-help
       .container.padding-contact
         .row
-          .col-md-12.text-center
-            h3.padding-ICanHelp I can help!
+          .col-sm-12.text-center
+            h3.padding-ICanHelp I can help
         .row
           .col-xs-6.col-xs-offset-3.text-center
             p
               | If you have a project you care about I would love to talk to you!
             p.btn-hldr
               a.main-btn.email-lnk(href='mailto:girlcodesign@gmail.com')
-                | let's get in touch 
+                | let's get in touch!
                 i.email
       // footer
-    footer
-      .container
-        .row
-          .col-md-6.col-md-offset-3.text-center
-            ul.footer-list
-              li
-                a(href='https://dribbble.com/angi')
-                  img.icon-size(src='img/dribbble-logo.svg')
-              li
-                a(href='https://twitter.com/girlco007')
-                  img.icon-size(src='img/twitter.svg')
-              li
-                a(href='https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US')
-                  img.icon-size(src='img/linkedin-logo.svg')
-        .row
-          .col-lg-12
-            p
-              | © 2016 
-              a(href='#') Angelika Gaszczyk
+      footer
+       .container
+         .row.text-center
+           .col-sm-4
+           .col-sm-4
+             ul.list-inline.social-buttons
+               li
+                 a(href='https://twitter.com/girlco007', target='_blank')
+                   i.fa.fa-twitter.fa-inverse
+               li
+                 a(href='https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US', target='_blank')
+                   i.fa.fa-linkedin.fa-inverse
+               li
+                 a(href='https://www.behance.net/angi007', target='_blank')
+                   i.fa.fa-behance.fa-inverse
+           .col-sm-4
+             ul.list-inline.arrow
+               li
+                 a(href='#top')
+                   i.fa.fa-chevron-up.fa-inverse
+        
