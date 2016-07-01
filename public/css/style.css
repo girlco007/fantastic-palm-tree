@@ -26,7 +26,7 @@ h1{
   font-family: 'Alex Brush', cursive;
   font-size: 3.5em;
   padding: 0.5em 0 0 0;
-  color: #45b29a;
+  color: #21564B;
 }
 
 h2{
@@ -392,13 +392,12 @@ ul.social-buttons li a:active {
 .padding-small {
     padding: 20px 0 30px 0;
   }
+.fa-inverse{
+  width: 50px;
+  height: 50px;
+}
 
-/*ul.arrow li a:hover,
-ul.arrow li a:focus,
-ul.arrow li a:active {
-    color: #fff;
 
-}*/
 @media (max-width:801px){
   .padding{
     padding: 1.5em 0 0 0;
@@ -413,7 +412,7 @@ ul.arrow li a:active {
 }
 
 @media (max-width:767px){
-  header{
+  .header{
     height: 800px;
     background: url('../img/desktop.svg') no-repeat ;
     background-size: cover;
@@ -492,7 +491,7 @@ ul.arrow li a:active {
 }
 
 @media (max-width:600px){
-  header{
+  .header{
     height: 750px;
     color: #fff;
   }
