@@ -43,44 +43,31 @@ block content
             h3.upto What I've been up to
         .row
           .col-sm-6.col-sm-offset-3.text-center
-            p
+            p.up
               | Here's a selection of some recent work. For more up to 
               | the minute work you can visit me on behance or twitter.
       // what I do 
-    section#what-i-do
+    section#table.work-shots
       .container
+        .row.text-center
+          .col-sm-12
+            .shot
+              img(src='img/gv-for-portfolio.jpg')
         .row
-          .col-sm-12.text-center
-            h3.padding-what What I do
-      .container.padding-b
-        .row
-          .col-sm-1
-            h4.padding
-          .col-sm-3
-            h4.padding Design what you want
-          .col-sm-4
-            img.img.img-responsive(src='img/design.svg')
-          .col-sm-4.text-left
-            p.padding-p
-              | My goals are to create a consistent design language to convey the key message. 
-      .container
-        .row
-          .col-sm-1
-            h4.padding
-          .col-sm-3
-            h4.padding Build what you need
-          .col-sm-4
-            img.img.img-responsive(src='img/dev.svg')
-          .col-sm-4
-            p.padding-p-p
-              | I use the latest technologies to ensure your website will look great both on descktop and mobile.
+          .col-sm-6.col-sm-offset-3.text-center
+            p
+              | Here's a selection of some recent work. For more up to 
+              | the minute work you can visit me on behance or twitter.
+            p.btn-hldr
+              a.btn-one(href='https://www.behance.net/angi007', ,='', target='_blank')
+                | view on behance
     section#i-can-help
       .container.padding-contact
         .row
           .col-sm-12.text-center
             h3.padding-ICanHelp I can help
         .row
-          .col-xs-6.col-xs-offset-3.text-center
+          .col-sm-6.col-sm-offset-3.text-center
             p
               | If you have a project you care about I would love to talk to you!
             p.btn-hldr
@@ -95,17 +82,16 @@ block content
            .col-sm-4
              ul.list-inline.social-buttons
                li
-                 a(href='https://twitter.com/girlco007', target='_blank')
-                   i.fa.fa-twitter.fa-inverse
+                 a(href='https://www.behance.net/angi007', ,='', target='_blank')
+                   img.icon-size-be(src='img/behance.svg')
                li
-                 a(href='https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US', target='_blank')
-                   i.fa.fa-linkedin.fa-inverse
+                 a(href='https://twitter.com/girlco007', ,='', target='_blank')
+                   img.icon-size(src='img/twitter.svg')
                li
-                 a(href='https://www.behance.net/angi007', target='_blank')
-                   i.fa.fa-behance.fa-inverse
+                 a(href='https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US', ,='', target='_blank')
+                   img.icon-size(src='img/linkedin-logo.svg')
            .col-sm-4
              ul.list-inline.arrow
                li
                  a(href='#top')
                    i.fa.fa-chevron-up.fa-inverse
-        
