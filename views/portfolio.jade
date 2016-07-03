@@ -34,7 +34,7 @@ block content
           .container
             .row.text-center
               .col-sm-12
-                img.spaceship(src='img/spaceship.svg')
+                img.img-responsive.spaceship(src='img/spaceship.svg')
       // say hi!              
     section
       .container
@@ -49,17 +49,20 @@ block content
       // what I do 
     section#table.work-shots
       .container
-        .row.text-center
+        .row
           .col-sm-12
             .shot
-              img(src='img/gv-for-portfolio.jpg')
+              img.img-responsive.just(src='img/gv-for-portfolio.jpg')
         .row
           .col-sm-6.col-sm-offset-3.text-center
-            p
-              | Here's a selection of some recent work. For more up to 
-              | the minute work you can visit me on behance or twitter.
+            h3.title NAME
+            h4.subtitle landing page
+            p.p
+              | I was aked by one of the startups to design and 
+              | develop a landing page for their business. 
+               
             p.btn-hldr
-              a.btn-one(href='https://www.behance.net/angi007', ,='', target='_blank')
+              a.btn-one(href='https://www.behance.net/gallery/38790905/Landing-page', ,='', target='_blank')
                 | view on behance
     section#i-can-help
       .container.padding-contact

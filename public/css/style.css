@@ -17,7 +17,7 @@
 
 }
 #table{
-  background: #4683fc;
+  background: #5f8adf;
 
 }
 
@@ -46,10 +46,11 @@ h2{
 h3{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3em;
-  color: #21564B;
+  color: #1e836c;
   font-weight: 400;
 
 }
+
 
 h4{
   font-size: 1.4em;
@@ -68,6 +69,24 @@ p{
   line-height: 1.5em;
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.title{
+  color: #fff;
+  padding-top: 30px;
+}
+.subtitle{
+  color: #aac5f7;
+  font-weight: 100;
+  padding: 0 0 15px 0;
+  font-size: 1.6em;
+}
+
+.p{
+  color: #fff;
+  font-weight: 300;
+  padding: 0 0 25px 0;
 }
 .hi{
   padding-top: 30px;
@@ -102,7 +121,10 @@ p{
   padding-bottom: 3em;
 }
 
-
+.just{
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
@@ -286,7 +308,7 @@ a{
 
 
 footer {
-    background: #bedac5;
+    background: #d5efe8;
     padding: 3em 0
 }
 
@@ -320,7 +342,7 @@ footer .footer-list li {
         padding: 0
     }
     .work-shots{
-      padding: 6em 0 0;
+      padding: 2em 0 0;
     }
 }
 
@@ -334,10 +356,15 @@ footer .footer-list a {
 footer .footer-list a:hover {
     color: #1a443b
 }
+a:hover, a:focus{
+  color: #fff;
+  text-decoration: none;
+}
 
 
 .btn-hldr {
-    text-align: center
+    text-align: center;
+    padding-bottom: 40px;
 }
 .btn-hldr .main-btn {
     font-size: 1em;
@@ -357,8 +384,24 @@ footer .footer-list a:hover {
     font-family: 'Josefin Sans', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
-
-
+}
+.main-btn:hover{
+  background: #21564B;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.btn-one:hover{
+  background: #0f24e0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.fa-inverse:hover{
+  color: #fff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
 
 .btn-one {
@@ -366,7 +409,7 @@ footer .footer-list a:hover {
     text-align: center;
     display: block;
     /*position: relative;*/
-    background: #3fe6ff;
+    background: #3645db;
     padding: .75em 3em .75em 3em;
     color: #fff;
     text-decoration: none;
@@ -412,8 +455,12 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #e0ebe8;
+    background-color: #ffffff;
     border-radius: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+
 }
 
 .btn:focus,
@@ -455,6 +502,22 @@ ul.social-buttons li a:active {
   .masthead{
     padding-top: 7em;
   }
+
+  .spaceship{
+    display: none;
+  }
+  .mastheadPortfolio{
+    background: url('../img/spaceship.svg') no-repeat ;
+    background-size: 150%;
+    background-position:  center;
+    height: 400px;
+  }
+
+  .upto{
+    padding: 0;
+    margin-top: -30px;
+  }
+
   h1{
     font-size: 3em;
     padding: 0;
@@ -558,6 +621,13 @@ ul.social-buttons li a:active {
   }
   .main-img{
     display: none;
+  }
+  .btn-hldr{
+    padding-bottom: 3em;
+  }
+  .padding-contact{
+    padding-top: 2em;
+    padding-bottom: 1em;
   }
 
 }
