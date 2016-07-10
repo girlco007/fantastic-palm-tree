@@ -17,7 +17,7 @@
 
 }
 #table{
-  background: #5f8adf;
+  background: #89aaeb;
 
 }
 
@@ -342,7 +342,7 @@ footer .footer-list li {
         padding: 0
     }
     .work-shots{
-      padding: 2em 0 0;
+      padding: 3em 0 3em;
     }
 }
 
@@ -521,6 +521,7 @@ ul.social-buttons li a:active {
   h1{
     font-size: 3em;
     padding: 0;
+    color: #45b29a;
   }
   h2{
     font-size: 2em;
