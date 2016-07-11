@@ -408,12 +408,14 @@ a:hover, a:focus{
 }
 .btn-one:hover{
   background: #0556f5;
+  color: #fff;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
 }
 .btn-two:hover{
   background: #fe4a5e;
+  color: #fff;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
