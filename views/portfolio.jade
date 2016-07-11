@@ -21,9 +21,9 @@ block content
                 li.hidden
                   a(href='#page-top')
                 li.page-scroll
-                  a(href='#hello', style='margin-top: 30px; padding-right: 20px') About
+                  a(href='/', style='margin-top: 30px; padding-right: 20px') About
                 li.page-scroll
-                  a(href='#what-i-do', style='margin-top: 30px; padding-right: 20px') Work
+                  a(href='#example', style='margin-top: 30px; padding-right: 20px') Portfolio
                 li.page-scroll(style='margin-top: 30px; padding-right: 20px')
                   a(href='#i-can-help') Contact
             // /.navbar-collapse
@@ -47,6 +47,23 @@ block content
               | Here's a selection of some recent work. For more up to 
               | the minute work you can visit me on behance or twitter.
       // what I do 
+    section#example.work-shots
+      .container
+        .row
+          .col-sm-12
+            .shot
+              img.img-responsive.just(src='img/gv-for-portfolio-boho.jpg')
+        .row
+          .col-sm-6.col-sm-offset-3.text-center
+            h3.title BOHO
+            h4.subtitle-one blog 
+            //- p.p
+            //-   | I have build and develope a responive site for a one of the 
+            //-   | fasion bloggers. 
+               
+            p.btn-hldr
+              a.btn-two(href='https://www.behance.net/gallery/40467249/Boho-site', ,='', target='_blank')
+                | view on behance            
     section#table.work-shots
       .container
         .row
@@ -57,9 +74,9 @@ block content
           .col-sm-6.col-sm-offset-3.text-center
             h3.title NAME
             h4.subtitle landing page
-            p.p
-              | I was aked by one of the startups to design and 
-              | develop a landing page for their business. 
+              //- p.p
+              //- | I have build and develope a responive site for a startup
+              //- 
                
             p.btn-hldr
               a.btn-one(href='https://www.behance.net/gallery/38790905/Landing-page', ,='', target='_blank')

@@ -20,6 +20,10 @@
   background: #89aaeb;
 
 }
+#example{
+  background: #e88893;
+
+}
 
 .upto{
   padding: 1em 0 0.5em 0;
@@ -76,8 +80,15 @@ p{
   color: #fff;
   padding-top: 30px;
 }
+
 .subtitle{
   color: #aac5f7;
+  font-weight: 100;
+  padding: 0 0 15px 0;
+  font-size: 1.6em;
+}
+.subtitle-one{
+  color: #edd4d7;
   font-weight: 100;
   padding: 0 0 15px 0;
   font-size: 1.6em;
@@ -386,13 +397,19 @@ a:hover, a:focus{
     letter-spacing: 1px;
 }
 .main-btn:hover{
-  background: #21564B;
+  background: #1B7F69;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
 }
 .btn-one:hover{
-  background: #0f24e0;
+  background: #0556f5;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+.btn-two:hover{
+  background: #fe4a5e;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   transition: all .3s;
@@ -409,7 +426,29 @@ a:hover, a:focus{
     text-align: center;
     display: block;
     /*position: relative;*/
-    background: #3645db;
+    background: #3c7af3;
+    padding: .75em 3em .75em 3em;
+    color: #fff;
+    text-decoration: none;
+    /*margin: 1.5em 0 0;*/
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: 400;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-two {
+    font-size: 1em;
+    text-align: center;
+    display: block;
+    /*position: relative;*/
+    background: #ed5d6d;
     padding: .75em 3em .75em 3em;
     color: #fff;
     text-decoration: none;
@@ -456,7 +495,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background-color: #ffffff;
-    border-radius: 100%;
+    border-radius: 20%;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
