@@ -173,9 +173,13 @@ p{
 }
 
 
+.link{
+  color: #45b29a;
+}
 
-
-
+.link a:hover{
+  color: #91ead1
+}
 
 
 
@@ -368,7 +372,7 @@ footer .footer-list a:hover {
     color: #1a443b
 }
 a:hover, a:focus{
-  color: #fff;
+  color: #1b7f69;
   text-decoration: none;
 }
 
