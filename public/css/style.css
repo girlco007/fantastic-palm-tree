@@ -85,6 +85,10 @@ p{
   color: #fff;
   padding-top: 30px;
 }
+.title1{
+  color: #fff;
+  padding-top: 0px;
+}
 
 .subtitle{
   color: #aac5f7;
@@ -433,8 +437,15 @@ a:hover, a:focus{
   transition: all .3s;
 
 }
-
-
+.btn-three:visited{
+  color: #fff;
+}
+.btn-one:visited{
+  color: #fff;
+}
+.btn-two:visited{
+  color: #fff;
+}
 .fa-inverse:hover{
   color: #fff;
   -webkit-transition: all .3s;
