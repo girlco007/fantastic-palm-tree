@@ -26,7 +26,9 @@
 }
 #example1{
   background: #e88893;
-
+}
+#example0{
+  background: #9ce8e1;
 }
 
 
@@ -92,6 +94,12 @@ p{
 
 .subtitle{
   color: #aac5f7;
+  font-weight: 100;
+  padding: 0 0 15px 0;
+  font-size: 1.6em;
+}
+.subtitle-zero{
+  color: #04bead;
   font-weight: 100;
   padding: 0 0 15px 0;
   font-size: 1.6em;
@@ -422,6 +430,13 @@ a:hover, a:focus{
   -moz-transition: all .3s;
   transition: all .3s;
 }
+.btn-zero:hover{
+  background: #08988b;
+  color: #fff;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
 .btn-two:hover{
   background: #fe4a5e;
   color: #fff;
@@ -436,6 +451,9 @@ a:hover, a:focus{
   -moz-transition: all .3s;
   transition: all .3s;
 
+}
+.btn-zero:visited{
+  color: #fff;
 }
 .btn-three:visited{
   color: #fff;
@@ -452,7 +470,28 @@ a:hover, a:focus{
   -moz-transition: all .3s;
   transition: all .3s;
 }
-
+.btn-zero{
+  font-size: 1em;
+  text-align: center;
+  display: block;
+  /*position: relative;*/
+  background: #04bead;
+  padding: .75em 3em .75em 3em;
+  color: #fff;
+  text-decoration: none;
+  /*margin: 1.5em 0 0;*/
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  font-weight: 400;
+  border: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .btn-three{
   font-size: 1em;
   text-align: center;
