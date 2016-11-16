@@ -2,6 +2,15 @@
 .body-size{
   margin: 0 70px 0 70px;
 }*/
+.fo{
+  padding-top: 1.2em;
+  color: #45b29a;
+  font-size: 0.8em;
+}
+.navme{
+  margin-top: 2em;
+  margin-right: 2em;
+}
 
 .masthead{
   padding: 8em 0 0 0;
@@ -23,7 +32,7 @@
   color: #fff;
 }
 .subtitleExample1{
-  color: #aac5f7;
+  color: #cbd9f2;
   font-weight: 100;
   padding: 0 0 15px 0;
   font-size: 1.6em;
@@ -72,7 +81,7 @@
   color: #80b648;
 }
 .subtitleExample6{
-  color: #a5c883;
+  color: #9cb186;
   padding: 0 0 15px 0;
 
 }
@@ -83,14 +92,18 @@
 .titleExample7 {
   color: #69a85c;
 }
+
 .subtitleExample7{
   color: #9cdf8e;
-  padding: 0 0 15px 0;
 }
 
+.title{
+  margin-top: 0.8em;
+}
 
-.screenSize{
-  max-width: 500px;
+.subtitle{
+  padding: 0 0 15px 0;
+  margin-bottom: 0px
 }
 
 
@@ -161,10 +174,13 @@ p{
 }
 
 .p{
-  color: #fff;
-  font-weight: 300;
+  color: #2c3e50;
   padding: 0 0 25px 0;
+  font-size: 1em;
+
 }
+
+
 .hi{
   padding-top: 30px;
   font-size: 1.7em
@@ -247,14 +263,6 @@ p{
   color: #91ead1
 }
 
-
-
-
-
-
-
-
-
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
@@ -276,6 +284,9 @@ p{
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+    .screenSize{
+      max-width: 600px;
     }
 }
 
@@ -748,13 +759,13 @@ ul.social-buttons li a:active {
 @media (max-width:767px){
   .header{
     height: 800px;
-    background: url('../img/desktop.svg') no-repeat ;
+    background: url('../img/desktop1.svg') no-repeat ;
     background-size: cover;
     background-position:  center;
     color: #fff;
   }
   .masthead{
-    padding-top: 7em;
+    padding-top: 6em;
   }
 
   .spaceship{
@@ -856,6 +867,7 @@ ul.social-buttons li a:active {
 
   h2{
     font-size: 1.5em;
+    line-height: 0.2;
   }
 
   h3{
