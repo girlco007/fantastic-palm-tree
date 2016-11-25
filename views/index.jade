@@ -32,8 +32,7 @@ block content
       header.header
         .masthead
           .container
-            .row
-              .col-sm-12.text-center
+            .row.text-center
                 h1  Angelika Gaszczyk 
                 h2
                   | web designer
@@ -46,8 +45,7 @@ block content
       // say hi!              
     section#hello
       .container
-        .row
-          .col-sm-12.text-center
+        .row.text-center
             img.avatar-img.img-responsive(src='img/me2.svg')
             h4.hi Hi, I'm Angie!
         .row
@@ -58,32 +56,27 @@ block content
               | and mobile.
       // what I do 
     section#what-i-do
-      .container
-        .row
-          .col-sm-12.text-center
+      .container.p-bot
+        .row.text-center
             h3.padding-what What I do
-      .container.padding-b
+      .container.p-bot
         .row
-          .col-sm-1
-            h4.padding
-          .col-sm-3
-            h4.padding Design what you want
+          .col-sm-6.col-sm-offset-1
+            img.img.img-responsive(src='img/designScreen.svg')
           .col-sm-4
-            img.img.img-responsive(src='img/design.svg')
-          .col-sm-4.text-left
+            h4.padding Design what you want.
             p.padding-p
               | My goals are to create a consistent design language to convey the key message. 
-      .container
+      .container.p-top.p-bot
         .row
-          .col-sm-1
-            h4.padding
-          .col-sm-3
-            h4.padding Build what you need
-          .col-sm-4
-            img.img.img-responsive(src='img/dev.svg')
-          .col-sm-4
-            p.padding-p-p
+          .col-sm-6.col-sm-push-5
+            img.img.img-responsive(src='img/devScreen.svg')
+          .col-sm-4.col-md-offset-1.col-sm-pull-6
+            h4.padding Build what you need.
+            p
               | I use the latest technologies to ensure your website will look great both on descktop and mobile.
+
+
     section#i-can-help
       .container.padding-contact
         .row
