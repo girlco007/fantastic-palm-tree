@@ -3,10 +3,49 @@
   margin: 0 70px 0 70px;
 }*/
 
+.portfolioBgOne{
+  opacity: 0.4;
+  /*max-height: 20em;*/
+}
+
+.portfolioBgOne:hover{
+  opacity: 1;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+
+.portfolioBgTwo{
+  opacity: 0.4;
+  max-height: 275pt;
+}
+
+.portfolioBgTwo:hover{
+  opacity: 1;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+
+.portfolioBgThree{
+  opacity: 0.4;
+  max-height: 275pt;
+  margin-top: 50pt;
+}
+
+.portfolioBgThree:hover{
+  opacity: 1;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  transition: all .4s;
+}
+
+
+
 .bg-me{
   background-image: url(../img/me-normal.svg);
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
   transition: all .4s;
@@ -14,11 +53,12 @@
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
 }
 
 .bg-me:hover{
   background-image: url(../img/me-wink.svg);
-  height: 250px;
+  height: 200px;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
   transition: all .4s;
@@ -40,6 +80,8 @@
   padding-top: 1.2em;
   color: #45b29a;
   font-size: 0.8em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .navme{
   margin-top: 2em;
@@ -144,7 +186,7 @@
 
 
 .upto{
-  padding: 1em 0 0.5em 0;
+  /*padding: 1em 0 0.5em 0;*/
 }
 .up{
   padding-bottom: 4em;
@@ -185,7 +227,7 @@ h4{
 
 
 p{
-  padding-bottom: 1em;
+  padding-bottom: 1.2em;
   font-family: sans-serif;
   font-size: 1.2em;
   line-height: 1.5em;
@@ -224,6 +266,7 @@ p{
 #hello{
   padding: 7em 0 3em 0;
 }
+
 
 .main-img{
   max-width: 1050px;
@@ -297,6 +340,7 @@ p{
 .link a:hover{
   color: #91ead1
 }
+
 
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -789,6 +833,9 @@ ul.social-buttons li a:active {
   .padding{
     padding-top: 1em;
   }
+  .portfolioBgTwo{
+    margin-top: 50px;
+  }
 }
 
 
@@ -821,7 +868,7 @@ ul.social-buttons li a:active {
     display: none;
   }
   .mastheadPortfolio{
-    background: url('../img/spaceship.svg') no-repeat ;
+    /*background: url('../img/spaceship.svg') no-repeat ;*/
     background-size: 150%;
     background-position:  center;
     height: 400px;
@@ -946,4 +993,89 @@ ul.social-buttons li a:active {
     padding-bottom: 1em;
   }
 
+}
+
+
+@media(min-width:1500px){
+  .main-img{
+    max-width: 1200px;
+    padding:5em 0 5em 0;
+  }
+  h1{
+    font-size: 3.5em;
+    padding: 2em 0 0 0;
+  }
+  .bg-me{
+    height: 250px;
+    width: 250px;
+  }
+  .bg-me:hover{
+    height: 250px;
+    width: 250px;
+  }
+  .padding-ICanHelp{
+    padding: 2em 0 1em 0;
+  }
+}
+
+@media(max-width:768px){
+  .fa-inverse{
+    height: 0px;
+  }
+  .fo{
+    padding-bottom: 2em;
+  }
+
+
+}
+
+
+.app{
+  background-image: url(../img/app.svg);
+
+  height: 350px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app:hover{
+  background-image: url(../img/app2.svg);np
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.web{
+  background-image: url(../img/screen.svg);
+  background-repeat: no-repeat;
+  height: 350px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.web:hover{
+  background-image: url(../img/screen2.svg);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.graphic{
+  background-image: url(../img/monster.svg);
+  height: 350px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+
+.graphic:hover{
+  background-image: url(../img/monster2.svg);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+.size{
+  height: 300pt;
 }
