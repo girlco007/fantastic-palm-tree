@@ -1,0 +1,107 @@
+extends layout
+
+block content
+
+  .body-size
+      section#top
+        // Navigation
+        nav.navbar.navbar-default.navbar-fixed-top
+          .container
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header.page-scroll
+              img.avatar(src='img/me-avatar.svg')
+              button.navbar-toggle.navme(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#page-top')
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li.hidden
+                  a(href='#page-top')
+                li.page-scroll
+                  a(href='#hello', style='margin-top: 30px; padding-right: 20px') About
+                li.page-scroll
+                  a(href='portfolio', style='margin-top: 30px; padding-right: 20px') Portfolio
+                li.page-scroll(style='margin-top: 30px; padding-right: 20px')
+                  a(href='#i-can-help') Contact
+            // /.navbar-collapse
+          // /.container-fluid
+    section
+      .jumbotron.bg
+      .container.paddings.top
+        .row
+          .col-md-5
+          h3.project
+            |  Gumvelope
+      .container
+        .row
+          .col-sm-12
+            h2.sub  eco-friendly gum disposal
+      .container.paddings
+        .row
+          .col-sm-2
+            h4.reset  The idea:
+          .col-sm-10
+            p.par Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce placerat dolor sit amet convallis dictum. Curabitur commodo lobortis massa. Aliquam et vulputate dui, vel scelerisque odio. Nullam ut ligula ut urna pharetra gravida. Praesent non laoreet massa. Donec rutrum arcu vitae nisi ullamcorper sollicitudin a pulvinar quam. Phasellus imperdiet id enim condimentum elementum. Donec vehicula odio ante, at varius turpis dapibus a. 
+      .container.paddings
+        .row
+          .col-sm-2
+            h4.reset  The project:
+          .col-sm-10
+            p Product Design, User Research, User Experience Design, Visual Design, Graphic Design, Front-end Development   
+                    
+      .container
+        .row
+          .col-sm-12
+            .shot
+              img.img-responsive.just.mar-top.screen(src='img/nccsScreen.png')
+        .row
+          .col-sm-6.col-sm-offset-3.text-center
+            p.btn-hldr.mar-top
+              a.btn-visit(href='http://gumvelopes.com/', ,='', target='_blank')
+                | Visit the site     
+              a.btn-bh(href='https://www.behance.net/gallery/46421713/gumvelope', ,='', target='_blank')
+                | project view 
+                  
+    section#i-can-help
+      .container.padding-contact
+        .row
+          .col-sm-12.text-center
+            h3.padding-ICanHelp I can help
+        .row
+          .col-sm-6.col-sm-offset-3.text-center
+            p
+              | If you have a project you care about I would love to talk to you!
+            p.btn-hldr
+              a.main-btn.email-lnk(href='mailto:girlcodesign@gmail.com')
+                | let's get in touch!
+                i.email
+      // footer
+      footer
+       .container
+         .row.text-center
+           .col-sm-4
+           .col-sm-4
+             ul.list-inline.social-buttons
+               li
+                 a(href='https://www.behance.net/angi007', ,='', target='_blank')
+                   img.icon-size-be(src='img/behance.svg')
+               li
+                 a(href='https://twitter.com/girlco007', ,='', target='_blank')
+                   img.icon-size(src='img/twitter.svg')
+               li
+                 a(href='https://www.linkedin.com/in/angelika-gaszczyk-5885a7121', ,='', target='_blank')
+                   img.icon-size(src='img/linkedin-logo.svg')
+           .col-sm-3
+             ul.list-inline.arrow
+               li
+                 a(href='#top')
+                   i.fa.fa-chevron-up.fa-inverse
+
+         .row.text-center
+           .col-sm-8.col-sm-offset-2
+             p.fo
+              |Website designed and developed by Angelika Gaszczyk using Bootstrap and Node.

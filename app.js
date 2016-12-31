@@ -5,9 +5,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var portfolio = require('./routes/portfolio');
-
 
 var app = express();
 
@@ -23,8 +20,22 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/portfolio', portfolio);
+app.get('/', function(req, res){
+  res.render('index');
+});
+app.get('/portfolio', function(req, res){
+  res.render('portfolio');
+});
+app.get('/gm', function(req, res){
+  res.render('gm');
+});
+app.get('/nccs', function(req, res){
+  res.render('nccs');
+});
+app.get('/mama', function(req, res){
+  res.render('mama');
+});
+
 
 
 
