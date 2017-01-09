@@ -1,3 +1,7 @@
+.cap{
+  padding-top: 0.5em;
+}
+
 .body-size{
   margin: 0 120px 0 120px;
 }
@@ -7,11 +11,7 @@
 
 }
 
-.caption{
-  padding-top: 1em;
-  color: #000;
 
-}
 
 h1{
   font-family: 'Alex Brush', cursive;
