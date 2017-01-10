@@ -2,7 +2,14 @@
 	background-color: #000;
 }
 .caption{
-	padding: 1em 0 2em 0;
+	padding: 1em 0 3em 0;
+	color: #000;
+}
+.grow {
+	transition: all .2s ease-in-out;
+}
+.grow:hover {
+	transform: scale(1.1);
 }
 
 .bg {
