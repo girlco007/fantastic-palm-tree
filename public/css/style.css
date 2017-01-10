@@ -1,7 +1,9 @@
 .btn-bh{
 	background-color: #000;
 }
-
+.caption{
+	padding: 1em 0 2em 0;
+}
 
 .bg {
 	background-image: url(../img/kids1.jpg);

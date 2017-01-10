@@ -1,6 +1,3 @@
-.cap{
-  padding-top: 0.5em;
-}
 
 .body-size{
   margin: 0 120px 0 120px;
@@ -8,10 +5,11 @@
 
 .masthead{
   padding: 8em 0 0 0;
-
 }
 
-
+.a{
+  padding-top: 20px;
+}
 
 h1{
   font-family: 'Alex Brush', cursive;
@@ -63,6 +61,8 @@ p{
   padding: 7em 0 3em 0;
 }
 
+
+
 .main-img{
   max-width: 1000px;
   border-radius: 10px;
@@ -76,24 +76,24 @@ p{
 }
 
 
-.avatar-img{
+/*.avatar-img{
   max-height: 250px;
 
-}
+}*/
 .padding-what{
   padding: 2em 0 1em 0;
 }
-.padding-b{
+
+/*.padding-b{
   padding-bottom: 3em;
-}
+}*/
 
 
 
 
-
-.footer-list{
+/*.footer-list{
   text-align: center;
-}
+}*/
 
 .padding{
   padding: 3em 0 1em 0;
@@ -106,10 +106,10 @@ p{
 
 }
 
-.padding-p-p{
+/*.padding-p-p{
   padding: 3em 0 0 0;
 
-}
+}*/
 
 .padding-contact{
   padding: 2em 0 5em 0;
@@ -122,9 +122,6 @@ p{
 .padding-ICanHelp{
   padding: 2em 0 0.3em 0;
 }
-
-
-
 
 
 
@@ -289,28 +286,28 @@ footer p {
     padding: 2.5em 0 0
 }
 
-footer .footer-list {
+/*footer .footer-list {
     overflow: hidden;
     margin: 0 auto;
     max-width: 600px;
     padding: 0
-}
+}*/
 
-footer .footer-list li {
+/*footer .footer-list li {
     width: 50%;
     padding-top: 1em;
     padding-bottom: 1em;
     display: inline-block;;
-    /*float: left*/
-}
-@media (min-width:992px) {
+
+}*/
+/*@media (min-width:992px) {
     footer .footer-list li {
         width: 25%;
         padding: 0
     }
-}
+}*/
 
-footer .footer-list a {
+/*footer .footer-list a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -320,22 +317,20 @@ footer .footer-list a {
 
 footer .footer-list a:hover {
     color: #1a443b
-}
+}*/
 
 
-.btn-hldr {
+/*.btn-hldr {
     text-align: center
-}
-.btn-hldr .main-btn {
+}*/
+/*.btn-hldr .main-btn {
     font-size: .8em;
     text-align: center;
     display: block;
-    /*position: relative;*/
     background: #40a58c;
     padding: .75em 3em .75em 3em;
     color: #fff;
     text-decoration: none;
-    /*margin: 1.5em 0 0;*/
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -345,10 +340,10 @@ footer .footer-list a:hover {
     text-transform: uppercase;
     letter-spacing: 1px
 
-}
+}*/
 
-@media (min-width:992px) {
+/*@media (min-width:992px) {
     .btn-hldr .main-btn {
         display: inline-block
     }
-}
+}*/
